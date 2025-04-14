@@ -1,0 +1,6 @@
+/* Coloque aqui seu codigo CSS */
+.tab-respon-x-y {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 433px;
+}

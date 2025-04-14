@@ -1,0 +1,39 @@
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+
+.flutuante {
+    position: absolute !important;
+    width: 95%;
+    background-color: #fff;
+    padding: 8px;
+    z-index: 9999;
+    height: 227px;
+}
+
+.flutuante-scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 163px;
+    width: 98% !important;
+}
+
+.flutuante-tem {
+    cursor: pointer;
+    padding: 7px 0px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.flutuante-input {
+    padding: 7px 0px;
+}
+
+.flutuante-tem:hover {
+    background-color: #ebebeb;
+}
